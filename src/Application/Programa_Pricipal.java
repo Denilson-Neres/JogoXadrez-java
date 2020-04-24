@@ -1,12 +1,14 @@
 package Application;
 
-import JogoTabuleiro.Posicao;
+import Xadres.PartidaXadrez;
 
 public class Programa_Pricipal {
 
 	public static void main(String[] args) {
-		Posicao pos = new Posicao(3, 5);
-		System.out.println(pos);
+
+		PartidaXadrez partida = new PartidaXadrez();
+		UI.printTabuleiro(partida.getPecas());
+		System.out.println();
 	}
 
 }
