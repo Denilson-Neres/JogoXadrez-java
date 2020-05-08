@@ -8,7 +8,6 @@ public class Programa_Pricipal {
 
 		PartidaXadrez partida = new PartidaXadrez();
 		UI.printTabuleiro(partida.getPecas());
-		System.out.println();
 	}
 
 }
